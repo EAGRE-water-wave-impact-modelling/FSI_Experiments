@@ -1,5 +1,5 @@
 
-| Folder   name |   H   |   T  | lambda | Steepness (H/lambda) |
+| Folder   name |   H   |   T  | λ | Steepness (H/lambda) |
 |:-------------:|:-----:|:----:|:------:|:--------------------:|
 |               |  [m]  |  [s] |   [m]  |          [-]         |
 |      1_51     | 0.126 |   1  |  1.560 |         0.081        |
