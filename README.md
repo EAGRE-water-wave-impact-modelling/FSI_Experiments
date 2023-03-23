@@ -1,6 +1,6 @@
 # Experimental Modeling of Water-Wave Interactions with a Flexible Beam
 
-This GitHub repository has been created to share the experimental data which is presented in the OMAE 2023 conference paper 'Experimental Modeling of Water-Wave Interactions with a Flexible Beam'.
+This GitHub repository has been created to share the experimental data which is presented in the OMAE 2023 conference paper 'Experimental Modeling of Water-Wave Interactions with a Flexible Beam'. The paper presents a series of fluid-structure-interaction (FSI) experiments for studying water-wave interactions with a flexible beam in a wide range of sea conditions thus yielding a variety of FSI test-case data. The aim is to use these experimental data in order to validate FSI solvers commonly employed by the maritime industry in the design of fixed-foundation, offshore wind turbines. 
 
 ## FSI Experiments: Interactions of water-waves with a flexible beam
 
