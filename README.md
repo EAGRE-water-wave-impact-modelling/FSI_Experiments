@@ -34,26 +34,9 @@ resonance, can be studied. By changing the steepness of the regular waves, both 
 
 All measurements are given in the form of *.h5* format files, each of which has a corresponding *.pan* format file containing details of measurement names, units, frequency, maximum, minimum and standard deviation. 
 
-<details>
-
-<summary>Exp1_carriage_rest_0.25m</summary>
-
-The measurements corresponding to the wave parameters listed in Table 8 of paper are shared in this folder. 
-
-</details>
-
-<details>
-
-<summary>Exp1_carriage_rest_0.5m</summary>
-
-The measurements corresponding to the wave parameters listed in Table 9 of the paper are shared in this folder. 
-
-</details>
-
-
-- Exp1_carriage_rest_0.25m - measurements corresponding to the wave parameters listed in Table 8 of paper
-- Exp1_carriage_rest_0.5m – measurements corresponding to the wave parameters listed in Table 9 of the paper
-- Exp2_carriage_moving_0.25m – measurements corresponding to the wave parameters listed in Table 10 of the paper
-- Exp2_carriage_moving_0.5m – measurements corresponding to the wave parameters listed in Table 11 of the paper
-- Exp3_irreg_waves_0.25m – measurements corresponding to the wave parameters listed in Table 12 of the paper
-- Exp3_irreg_waves_0.5m – measurements corresponding to the wave parameters listed in Table 13 of the paper
+- Folder **Exp1_carriage_rest_0.25m** contains measurements corresponding to the wave parameters listed in Table 8 of paper
+- Folder **Exp1_carriage_rest_0.5m** contains measurements corresponding to the wave parameters listed in Table 9 of the paper
+- Folder **Exp2_carriage_moving_0.25m** contains measurements corresponding to the wave parameters listed in Table 10 of the paper
+- Folder **Exp2_carriage_moving_0.5m** contains measurements corresponding to the wave parameters listed in Table 11 of the paper
+- Folder **Exp3_irreg_waves_0.25m** contains measurements corresponding to the wave parameters listed in Table 12 of the paper
+- Folder **Exp3_irreg_waves_0.5m** contains measurements corresponding to the wave parameters listed in Table 13 of the paper
