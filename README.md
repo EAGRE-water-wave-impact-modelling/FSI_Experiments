@@ -8,6 +8,21 @@ The study is divided into three experimental cases which are summarised in the t
 ## FSI Experiments: Interactions of water-waves with a flexible beam
 
 All measurements are given in the form of *.h5* format files, each of which has a corresponding *.pan* format file containing details of measurement names, units, frequency, maximum, minimum and standard deviation. 
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
 
 
 <summary>Exp1_carriage_rest_0.25m</summary>
