@@ -13,15 +13,7 @@ All measurements are given in the form of *.h5* format files, each of which has 
 
 <summary>Exp1_carriage_rest_0.25m</summary>
 
-### You can add a header
-
-You can add text within a collapsed section. 
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
-```
+The measurements corresponding to the wave parameters listed in Table 8 of paper are shared in this folder. 
 
 </details>
 
