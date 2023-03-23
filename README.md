@@ -4,7 +4,13 @@ This GitHub repository has been created to share the experimental data which is 
 
 The study is divided into three experimental cases which are summarised in the table below
 
+<details>
 
+<summary>Case-1 experiments: interactions of regular waves with the flexible beam when the carriage is at rest </summary>
+
+The experiments are divided into three cases, each of which is aimed at studying the dynamic response of the flexible beam to varying wave conditions ranging from regular-to-irregular and moderate-to-extreme wave height and steepness. Experimental Case 1 concerns interactions of regular waves with the flexible beam when the carriage is at rest; studying this case will facilitate the validation of linear FSI solvers in the non-resonant regime, since the non-linear dynamic response of beam is not excited by the incident-wave frequencies. Experimental Case 2 concerns interactions with the flexible beam when the carriage is moving at a constant speed. Moving the carriage changes the frequency of encounter between beam and waves, so that the dynamic response of the beam and its interaction with water waves, particularly at the onset of resonance, can be studied. By changing the steepness of the regular waves, both linear and nonlinear FSI solvers can be validated.
+
+</details>
 ## FSI Experiments: Interactions of water-waves with a flexible beam
 
 All measurements are given in the form of *.h5* format files, each of which has a corresponding *.pan* format file containing details of measurement names, units, frequency, maximum, minimum and standard deviation. 
