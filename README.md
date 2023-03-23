@@ -9,9 +9,9 @@ The study is divided into three experimental cases which are summarised in the t
 
 All measurements are given in the form of *.h5* format files, each of which has a corresponding *.pan* format file containing details of measurement names, units, frequency, maximum, minimum and standard deviation. 
 
-- Exp1_carriage_rest_0.25m -  wave parameters listed in Table 8 of paper
+- Exp1_carriage_rest_0.25m - measurements corresponding to the wave parameters listed in Table 8 of paper
 - Exp1_carriage_rest_0.5m – measurements corresponding to the wave parameters listed in Table 9 of the paper
-- Exp2_carriage_moving_0.25m – wave parameters listed in Table 10 of the paper
-- Exp2_carriage_moving_0.5m – wave parameters listed in Table 11 of the paper
-- Exp3_irreg_waves_0.25m – wave parameters listed in Table 12 of the paper
-- Exp3_irreg_waves_0.5m – wave parameters listed in Table 13 of the paper
+- Exp2_carriage_moving_0.25m – measurements corresponding to the wave parameters listed in Table 10 of the paper
+- Exp2_carriage_moving_0.5m – measurements corresponding to the wave parameters listed in Table 11 of the paper
+- Exp3_irreg_waves_0.25m – measurements corresponding to the wave parameters listed in Table 12 of the paper
+- Exp3_irreg_waves_0.5m – measurements corresponding to the wave parameters listed in Table 13 of the paper
