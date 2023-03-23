@@ -17,12 +17,14 @@ The measurements corresponding to the wave parameters listed in Table 8 of paper
 
 </details>
 
+<details>
 
-<summary>Exp1_carriage_rest_0.25m</summary>
+<summary>Exp1_carriage_rest_0.5m</summary>
 
-The measurements corresponding to the wave parameters listed in Table 8 of paper are shared in this folder. 
+The measurements corresponding to the wave parameters listed in Table 9 of the paper are shared in this folder. 
 
 </details>
+
 
 - Exp1_carriage_rest_0.25m - measurements corresponding to the wave parameters listed in Table 8 of paper
 - Exp1_carriage_rest_0.5m – measurements corresponding to the wave parameters listed in Table 9 of the paper
