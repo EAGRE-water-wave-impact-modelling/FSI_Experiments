@@ -1,3 +1,4 @@
+The results obtained in experimental case 2 when the submerged depth of the beam's free end is *0.5*m are shared in this folder. The folder has four sub-folders which correspond to each wave condition and are listed in table below.
 
 | Folder   name |   H   |  T  | lambda | Steepness (H/lambda) |  Speed  | Encounter frequency |
 |:-------------:|:-----:|:---:|:------:|:--------------------:|:-------:|:-------------------:|
