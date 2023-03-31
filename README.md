@@ -40,6 +40,6 @@ All measurements are given in the form of *.h5* format files, each of which has 
 - Folder **Exp2_carriage_moving_0.5m** 
 - Folder **Exp3_irreg_waves_0.25m** 
 - Folder **Exp3_irreg_waves_0.5m** 
-- Folder ** hammer_test**
+- Folder **hammer_test**
 
 The description of the measurement and corresponding wave parameters is given in each folder.
