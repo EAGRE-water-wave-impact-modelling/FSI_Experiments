@@ -32,11 +32,14 @@ resonance, can be studied. By changing the steepness of the regular waves, both 
 
 ## FSI Experiments: Interactions of water-waves with a flexible beam
 
-All measurements are given in the form of *.h5* format files, each of which has a corresponding *.pan* format file containing details of measurement names, units, frequency, maximum, minimum and standard deviation. The data presented in the paper is classified into folder whose description is as follows: 
+All measurements are given in the form of *.h5* format files, each of which has a corresponding *.pan* format file containing details of measurement names, units, frequency, maximum, minimum and standard deviation. The data presented is classified into different folders whose description is as follows: 
 
-- Folder **Exp1_carriage_rest_0.25m** contains measurements corresponding to the wave parameters listed in Table 8 of the paper.
-- Folder **Exp1_carriage_rest_0.5m** contains measurements corresponding to the wave parameters listed in Table 9 of the paper.
-- Folder **Exp2_carriage_moving_0.25m** contains measurements corresponding to the wave parameters listed in Table 10 of the paper.
-- Folder **Exp2_carriage_moving_0.5m** contains measurements corresponding to the wave parameters listed in Table 11 of the paper.
-- Folder **Exp3_irreg_waves_0.25m** contains measurements corresponding to the wave parameters listed in Table 12 of the paper.
-- Folder **Exp3_irreg_waves_0.5m** contains measurements corresponding to the wave parameters listed in Table 13 of the paper.
+- Folder **Exp1_carriage_rest_0.25m** 
+- Folder **Exp1_carriage_rest_0.5m** 
+- Folder **Exp2_carriage_moving_0.25m** 
+- Folder **Exp2_carriage_moving_0.5m** 
+- Folder **Exp3_irreg_waves_0.25m** 
+- Folder **Exp3_irreg_waves_0.5m** 
+- Folder ** hammer_test**
+
+The description of the measurement and corresponding wave parameters is given in each folder.
