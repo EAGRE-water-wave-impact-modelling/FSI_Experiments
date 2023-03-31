@@ -42,4 +42,8 @@ All measurements are given in the form of *.h5* format files, each of which has 
 - Folder **Exp3_irreg_waves_0.5m** 
 - Folder **hammer_test**
 
-The description of the measurement and corresponding wave parameters is given in each folder.
+The description of the measurement and corresponding wave parameters is given in each folder. 
+
+## Data organisation
+
+All the main folders have several sub-folders and each sub-folder consists of mainly two types of files, i.e. *.pan* and *.h5m*. The files with extension *.pan* states the general information about experimental tests and sensors in text format.
