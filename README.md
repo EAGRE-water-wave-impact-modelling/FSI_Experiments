@@ -46,4 +46,14 @@ The description of the measurement and corresponding wave parameters is given in
 
 ## Data organisation
 
-All the main folders have several sub-folders and each sub-folder consists of mainly two types of files, i.e. *.pan* and *.h5m*. The files with extension *.pan* states the general information about experimental tests and sensors in text format.
+All the main folders have several sub-folders and each sub-folder consists of mainly two types of files, i.e. *.pan* and *.h5m*. The files with extension *.pan* states the general information about experimental tests and sensors in text format. These *.pan* have three rows and the third row is divided into several columns. The second row states the information related to the experimental test, for example, the test number (80372\_XXCB\_XX\_XXX\_XXX\_XX), project name (AEGRE), submerged depth of the beam (Proeven XX), gain, facility name (CB stands for concept basin), and scale (1.000). The first column of the third row shows the abbreviated sensor names which are explain in the table below.
+|    Name   |                              Description                             |
+|:---------:|:--------------------------------------------------------------------:|
+|  C.SPEED  |                            Carriage speed                            |
+| WAVE.FORE |   Wave elevation measured by probe located at the front of the beam  |
+|  WAVE.SB  |     Wave elevation measured by probe located parallel to the beam    |
+|    AX_i   | Accelerations of the beam in x direction recorded by accelerometer i |
+|    AY_i   | Accelerations of the beam in y direction recorded by accelerometer i |
+|    AZ_i   | Accelerations of the beam in z direction recorded by accelerometer i |
+
+The number with the accelerations, e.g. AX.1, AY.2, and AZ.3, denotes the location of the accelerometer. The accelerometers are numbered from 1 to 6 where the accelerometer at the submerged free end of the beam is numbered 1 while the one at the fixed end of the beam is numbered 6. The rest of the accelerometers are numbered 2 to 5 from the free end to the fixed end.
