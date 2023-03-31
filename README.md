@@ -32,7 +32,7 @@ resonance, can be studied. By changing the steepness of the regular waves, both 
 
 ## FSI Experiments: Interactions of water-waves with a flexible beam
 
-All measurements are given in the form of *.h5* format files, each of which has a corresponding *.pan* format file containing details of measurement names, units, frequency, maximum, minimum and standard deviation. The data presented is classified into different folders whose description is as follows: 
+All measurements are given in the form of *.h5* format files, each of which has a corresponding *.pan* format file containing details of measurement names, units, frequency, maximum, minimum and standard deviation. The data presented is classified into different folders given as follows: 
 
 - Folder **Exp1_carriage_rest_0.25m** 
 - Folder **Exp1_carriage_rest_0.5m** 
