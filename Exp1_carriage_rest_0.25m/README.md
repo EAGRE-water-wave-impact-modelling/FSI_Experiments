@@ -1,5 +1,9 @@
 
-| Folder   name |   H   |   T  | λ | Steepness (H/lambda) |
+
+- The data generated during experimental case~1 when the submerged depth of the beam's free end  was $0.25$m is shared in this folder. The folder has eight sub-folders which correspond to each wave condition. The wave parameters corresponding to each sub-folder are listed in Table.
+
+
+| Sub-folder |   H   |   T  | λ | Steepness (H/lambda) |
 |:-------------:|:-----:|:----:|:------:|:--------------------:|
 |               |  [m]  |  [s] |   [m]  |          [-]         |
 |      1_51     | 0.126 |   1  |  1.560 |         0.081        |
