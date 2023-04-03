@@ -1,6 +1,6 @@
 # Experimental Data for the Experimental Modeling of Water-Wave Interactions with a Flexible Beam
 
-This GitHub repository has been created to share the experimental data which is presented in the OMAE 2023 conference paper 'Experimental Modeling of Water-Wave Interactions with a Flexible Beam'. The paper presents a series of fluid-structure-interaction (FSI) experiments for studying water-wave interactions with a flexible beam in a wide range of sea conditions thus yielding a variety of FSI test-case data. The details about the dimensions of the beam and arrangements of the sensors are described in the form detailed CAD drawings which are given in **CAD_fsi_beam_exp.pdf**. The shared CAD drawings could be used in the future to reproduce the model. To enchance the users' understanding of the experimental setup a 2D schematic diagram of the setup is shown in the figure given below.
+This GitHub repository has been created to share the experimental data which is presented in the OMAE 2023 conference paper 'Experimental Modeling of Water-Wave Interactions with a Flexible Beam'. The paper presents a series of fluid-structure-interaction (FSI) experiments for studying water-wave interactions with a flexible beam in a wide range of sea conditions thus yielding a variety of FSI test-case data. The details about the dimensions of the beam and arrangements of the sensors are described in the form detailed CAD drawings which are given in **CAD_fsi_beam_exp.pdf**. The shared CAD drawings could be used in the future to reproduce the model. To enchance the users' understanding of the experimental setup a 2D schematic diagram of the setup is shown in the figure given below. (*Note: The figure is taken from the above mentioned OMAE paper which is not publically available yet*)
 
 ![My Image](beam_exp_setup.png)
 
@@ -8,15 +8,15 @@ The aim is to use these experimental data in order to validate FSI solvers commo
 
 <details>
 
-<summary>Case-1 experiments: interactions of regular waves with the flexible beam when the carriage is at rest </summary>
+<summary>Case-1 experiments: regular-water-waves interactions with the flexible beam when the carriage is at rest </summary>
 
-- Experimental Case 1 concerns interactions of regular waves with the flexible beam when the carriage is at rest; studying this case will facilitate the validation of linear FSI solvers in the non-resonant regime, since the non-linear dynamic response of beam is not excited by the incident-wave frequencies. This experimental case is further divided into two subcases corresponding to different submerged beam lengths. Subcases 1 and 2 respectively have *0.25m* and *0.5m* of the beam submerged. 
+- "*Experimental Case 1 concerns interactions of regular waves with the flexible beam when the carriage is at rest; studying this case will facilitate the validation of linear FSI solvers in the non-resonant regime, since the non-linear dynamic response of beam is not excited by the incident-wave frequencies. This experimental case is further divided into two subcases corresponding to different submerged beam lengths. Subcases 1 and 2 respectively have *0.25m* and *0.5m* of the beam submerged*". 
 
 </details>
 
 <details>
 
-<summary>Case-2 experiments: interactions of regular water waves with the flexible beam when the carriage is moving at a constant speed</summary>
+<summary>Case-2 experiments: regular-water-waves interactions with the flexible beam when the carriage is moving at a constant speed</summary>
 
 - Experimental Case 2 concerns interactions with the flexible beam when the carriage is moving at a constant speed. Moving the carriage changes the frequency of encounter between beam and waves, so that the dynamic response of the beam and its interaction with water waves, particularly at the onset of
 resonance, can be studied. By changing the steepness of the regular waves, both linear and nonlinear FSI solvers can be validated. This experimental case is further divided into two subcases corresponding to different submerged beam lengths. Subcases 1 and 2 respectively have *0.25m* and *0.5m* of the beam submerged.
@@ -25,7 +25,7 @@ resonance, can be studied. By changing the steepness of the regular waves, both 
 
 <details>
 
-<summary>Case-3 experiments: interactions of irregular water waves with the flexible beam when the carriage is at rest</summary>
+<summary>Case-3 experiments: irregular-water-waves interactions with the flexible beam when the carriage is at rest</summary>
 
 - Experimental Case 3 concerns steep, irregular-wave interactions with the flexible beam when the carriage is at rest. This is the most complex case and is designed to yield data on structural dynamics due to nonlinear wave-loading processes related to steep and breaking waves. This case will help to validate the high-fidelity FSI solvers. 
 
