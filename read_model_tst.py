@@ -64,7 +64,6 @@ with h5py.File(filename, "r") as f:
 
     
 ##_________________  PLOT SIGNALS __________________________##
-plt.plot(t1, AX1) 
 
 fig, (ax1, ax2) = plt.subplots(2)
 
