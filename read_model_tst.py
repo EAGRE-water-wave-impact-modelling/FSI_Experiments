@@ -61,6 +61,9 @@ with h5py.File(filename, "r") as f:
     # Wave elevation obtained from the probe parallel to the beam
     Wave_sb = f['/200.05 Hz/WAVE.SB'][()]
     
+    # carriage speed
+    C_speed = f['/200.05 Hz/C.SPEED'][()]
+    
 
     
 ##_________________  PLOT SIGNALS __________________________##
