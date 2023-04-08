@@ -1,4 +1,4 @@
-This folder contains measurements for the water-beam interactions when the submerged depth of the beam's free end is $0.5$m. The corresponding sub-folder and the wave parameters and characteristics are given in Table 1.
+This folder contains measurements for the water-beam interactions when the submerged depth of the beam's free end is 0.5 m. The corresponding sub-folder and the wave parameters and characteristics are given in Table 1.
 
 TABLE 1: The wave parameters corresponding to each sub-folder are listed.
 
