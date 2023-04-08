@@ -3,7 +3,7 @@ clear
 %% Put the file name in commas
 h5mfile_in='80372_02CB_04_050_001_01.h5m';
 
-%% Read data
+%% Read data from accelerometers
 t1=h5read(h5mfile_in,'/1200.31 Hz/Time'); % time axis for accelerometers
 AX1=h5read(h5mfile_in,'/1200.31 Hz/AX.1'); % accelerometer at the free end
 AX2=h5read(h5mfile_in,'/1200.31 Hz/AX.2');
@@ -11,18 +11,30 @@ AX3=h5read(h5mfile_in,'/1200.31 Hz/AX.3');
 AX4=h5read(h5mfile_in,'/1200.31 Hz/AX.4');
 AX5=h5read(h5mfile_in,'/1200.31 Hz/AX.5');
 AX6=h5read(h5mfile_in,'/1200.31 Hz/AX.6'); % accelerometer at the fixed end
-
+%% Wave Probes and carriage
 t_wave=h5read(h5mfile_in,'/200.05 Hz/Time'); % time axis for waves
 WAVE_FORE=h5read(h5mfile_in,'/200.05 Hz/WAVE.FORE'); % probe in front of the beam
 WAVE_SB=h5read(h5mfile_in,'/200.05 Hz/WAVE.SB'); % probe parallel to the beam
+%% Waveflap wavemaker position
+t3 = h5read(h5mfile_in,'/100.00 Hz/Time');
+flap_pos=h5read(h5mfile_in,'/100.00 Hz/Flap 3 Pos');
+
+%% Waveflap Wavemaker position
+plot(t3, flap_pos,'DisplayName', 'Wavemaker position')
+ax = gca;
+ax.FontSize = 15;
+xlabel('Time [s]')
+ylabel('Wavemaker position [deg]')
+grid
 
 %% Sensor at the free end of the beam
+figure
 plot(t1, AX1,'DisplayName', 'AX1')
 ax = gca;
 ax.FontSize = 15;
 xlabel('Time [s]')
 ylabel('Acceleration (AX1)')
-
+grid
 
 %% Sensor at the fixed end of the beam
 figure
