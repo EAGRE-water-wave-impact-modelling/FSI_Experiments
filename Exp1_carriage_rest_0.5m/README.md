@@ -1,5 +1,5 @@
 
-The measurements corresponding to the wave parameters in experimental case 1 when the beam's submerged free-end length is *0.5*m are shared in this folder. This folder also has eight sub-folders which correspond to each wave condition. The wave parameters corresponding to each sub-folder are listed in the table below.
+The measurements corresponding to the wave parameters in experimental case 1 when the beam's submerged free-end length is *0.5*m are shared in this folder. This folder also has eight sub-folders which correspond to each wave condition. The wave parameters corresponding to each sub-folder are listed in the Table 1.
 
 TABLE 1: The wave parameters corresponding to each sub-folder are listed.
 | Sub-folder name |   H   |   T  | λ | Steepness (H/λ) |
@@ -13,3 +13,5 @@ TABLE 1: The wave parameters corresponding to each sub-folder are listed.
 |     5_57    |  0.14 |  1.5 |  3.51  |         0.040        |
 |     6_58    |  0.25 |   2  |  6.24  |         0.040        |
 |     7_60    | 0.016 | 0.58 |  0.52  |         0.030        |
+
+In Table 1, H means wave height, T denotes wave time period, λ is the wavelength, and wave steepness is the ratio of wave height and wavelength.
