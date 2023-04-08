@@ -68,4 +68,4 @@ The number with the accelerations, e.g. AX.1, AY.2, and AZ.3, denotes the locati
 FIGURE 2: The top plot shows the accelerations obtained from the accelerometer located at the submerged free-end of the beam when the incident wave, shown in the bottom plot, interacted with the beam.
 
 ## References
-[^1]: Rehman, W., Bunnik, T., Bokhove, O. and Kelmanson, M. “Experimental Modeling of Water-Wave Interactions with a Flexible Beam.” *Proc. ASME 2023 42nd Int. Conf. on Ocean, Offshore and Arctic Eng.*: p. 10. 2023. ASME.
+[1]: Rehman, W., Bunnik, T., Bokhove, O. and Kelmanson, M. “Experimental Modeling of Water-Wave Interactions with a Flexible Beam.” *Proc. ASME 2023 42nd Int. Conf. on Ocean, Offshore and Arctic Eng.*: p. 10. 2023. ASME.
