@@ -1,4 +1,4 @@
-The results obtained in experimental case~3, when the submerged depth of the beam's free end is *0.25*m, are shared in this folder. The folder has three sub-folders which correspond to each wave condition and are listed in Table 1.
+The results obtained in experimental case 3, when the submerged depth of the beam's free end is *0.25*m, are shared in this folder. The folder has three sub-folders which correspond to each wave condition and are listed in Table 1.
 
 TABLE 1: The wave parameters corresponding to each sub-folder are listed.
 
