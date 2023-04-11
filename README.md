@@ -4,7 +4,7 @@ This GitHub repository is created to share the experimental data which is presen
 ![My Image](concept_wavetank.png)
 Figure 1: A schematic diagram of the MARIN's concept basin [2].
 
-The details about the dimensions of the beam and arrangements of the sensors are described in the form of detailed CAD drawings which are given in **CAD_fsi_beam_exp.pdf**. The shared CAD drawings could be used in the future to reproduce the model. To enhance the users' understanding of the experimental setup, a 2D schematic diagram of the setup is shown in Fig. 2. (*Note: The figure is taken from the above-mentioned OMAE paper which is not publically available yet.*)
+The experimental setup is designed such that it admits the simultaneous measurements of incident waves and the beam's response. Hence, it is suitable for studying FSI problems. The details about the dimensions of the beam and arrangements of the sensors are described in the form of detailed CAD drawings which are given in **CAD_fsi_beam_exp.pdf**. The shared CAD drawings could be used in the future to reproduce the model. To enhance the users' understanding of the experimental setup, a 2D schematic diagram of the setup is shown in Fig. 2. (*Note: The figure is taken from the above-mentioned OMAE paper which is not publically available yet.*)
 
 ![My Image](beam_exp_setup.png)
 FIGURE 2: A two-dimensional schematic diagram of the experimental setup [1].
