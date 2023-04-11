@@ -1,6 +1,6 @@
 
 
-- The data generated during experimental case 1 when the submerged depth of the beam's free end is *0.25*m is shared in this folder. The folder has eight sub-folders which correspond to each wave condition. The wave parameters corresponding to each sub-folder are listed in Table 1. 
+The data generated during experimental case 1 when the submerged depth of the beam's free end is *0.25*m is shared in this folder. The folder has eight sub-folders which correspond to each wave condition. The wave parameters corresponding to each sub-folder are listed in Table 1. 
 
 TABLE 1: The wave parameters corresponding to each sub-folder are listed.
 | Sub-folder |   H   |   T  | λ | Steepness (H/λ) |
