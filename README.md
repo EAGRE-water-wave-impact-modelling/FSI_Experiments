@@ -77,6 +77,8 @@ Figure 4 shows the plots of the incident wave and the beam's response to the inc
 ![My Image](acc_vs_wave.png)
 FIGURE 4: The top plot shows the accelerations obtained from the accelerometer located at the submerged free-end of the beam when the incident wave, shown in the bottom plot, interacted with the beam.
 
+It can be noticed that the signals in the last 50 seconds of the run are affected by the reflected waves. Therefore, the user should use the part of the signal that is not affected by the reflected waves for the code validation purpose. 
+
 ## References
 [1] Rehman, W., Bunnik, T., Bokhove, O. and Kelmanson, M. “Experimental Modeling of Water-Wave Interactions with a Flexible Beam.” *Proc. ASME 2023 42nd Int. Conf. on Ocean, Offshore and Arctic Eng.*: p. 10. 2023. ASME.
 
