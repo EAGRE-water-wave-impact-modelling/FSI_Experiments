@@ -73,4 +73,5 @@ FIGURE 3: The top plot shows the accelerations obtained from the accelerometer l
 
 ## References
 [1] Rehman, W., Bunnik, T., Bokhove, O. and Kelmanson, M. “Experimental Modeling of Water-Wave Interactions with a Flexible Beam.” *Proc. ASME 2023 42nd Int. Conf. on Ocean, Offshore and Arctic Eng.*: p. 10. 2023. ASME.
+
 [2] MARIN Concept Basin.” file:///Users/mmwr/Downloads/Concept_Basin.pdf. Accessed: 19-11-2022
