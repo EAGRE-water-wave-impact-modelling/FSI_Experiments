@@ -54,7 +54,6 @@ The description of the measurement and corresponding wave parameters is given in
 ## Data organisation
 
 All the main folders have several sub-folders and each sub-folder consists of mainly two types of files, i.e. *.pan* and *.h5m*. The files with extension *.pan* state the general information about experimental tests and sensors in text format. These *.pan* have three rows and the third row is divided into several columns. The second row states the information related to the experimental test, for example, the test number (80372\_XXCB\_XX\_XXX\_XXX\_XX), project name (AEGRE), submerged depth of the beam (Proeven XX), gain, facility name (CB stands for concept basin), and scale (1.000). The first column of the third row shows the abbreviated sensor names which are explained in the table below.
-WAVE_CL is measured 30m van de wavemaker. WAVE_FORE is  measured 26.25 m from the wave maker.
 
 TABLE 1: The names and descriptions of the sensors are listed.
 |    Name   |                              Description                             |
