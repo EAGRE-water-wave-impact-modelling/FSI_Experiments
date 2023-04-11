@@ -59,8 +59,8 @@ TABLE 1: The names and descriptions of the sensors are listed.
 |    Name   |                              Description                             |
 |:---------:|:--------------------------------------------------------------------:|
 |  C.SPEED  |                            Speed of the carriage                         |
-| WAVE.FORE |   Wave elevation measured by probe located at the front of the beam (26.25 m away from the wavemaker) |
-|  WAVE.SB  |     Wave elevation measured by probe located parallel to the beam (30 m away from the wavemaker)   |
+| WAVE.FORE |   Wave elevation measured by the probe located at the front of the beam (26.25 m away from the wavemaker) |
+|  WAVE.SB  |     Wave elevation measured by the probe located parallel to the beam (30 m away from the wavemaker)   |
 |    AX_i   | Accelerations of the beam in x direction recorded by accelerometer, where i denotes the accelerometer number|
 |    AY_i   | Accelerations of the beam in y direction recorded by accelerometer, where i denotes the accelerometer number |
 |    AZ_i   | Accelerations of the beam in z direction recorded by accelerometer, where i denotes the accelerometer number |
