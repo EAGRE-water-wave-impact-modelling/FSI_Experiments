@@ -1,9 +1,12 @@
 # Experimental Data for the Experimental Modeling of Water-Wave Interactions with a Flexible Beam
 
-This GitHub repository is created to share the experimental data which is presented in the OMAE 2023 conference paper 'Experimental Modeling of Water-Wave Interactions with a Flexible Beam'[1]. The paper has already been accepted for publication; however, it is not publically available yet. The figure and the explanation mentioned here are taken from the paper. The paper presents a series of fluid-structure-interaction (FSI) experiments for studying water-wave interactions with a flexible beam in a wide range of sea conditions thus yielding a variety of FSI test-case data. The details about the dimensions of the beam and arrangements of the sensors are described in the form of detailed CAD drawings which are given in **CAD_fsi_beam_exp.pdf**. The shared CAD drawings could be used in the future to reproduce the model. To enhance the users' understanding of the experimental setup, a 2D schematic diagram of the setup is shown in the figure given below. (*Note: The figure is taken from the above-mentioned OMAE paper which is not publically available yet.*)
+This GitHub repository is created to share the experimental data which is presented in the OMAE 2023 conference paper 'Experimental Modeling of Water-Wave Interactions with a Flexible Beam'[1]. The paper has already been accepted for publication; however, it is not publically available yet. The figure and the explanation mentioned here are taken from the paper. The paper presents a series of fluid-structure-interaction (FSI) experiments for studying water-wave interactions with a flexible beam in a wide range of sea conditions thus yielding a variety of FSI test-case data. The experimental campaign is carried out at the Maritime Research Institute Netherland's (MARIN's) concept basin. The concept basin is a 220m-long, 4m-wide and 3.6m-deep rectilinear basin with a carriage that can transverse along the basin's length. One end of the basin is equipped with a waveflap wavemaker to generate water waves while the other end has a wave-breaking beach to avoid wave reflection. The schematic of the concept wave basin is shown in Fig. 1.
+![My Image](concept_wavetank.png)[2]
+
+The details about the dimensions of the beam and arrangements of the sensors are described in the form of detailed CAD drawings which are given in **CAD_fsi_beam_exp.pdf**. The shared CAD drawings could be used in the future to reproduce the model. To enhance the users' understanding of the experimental setup, a 2D schematic diagram of the setup is shown in Fig. 2. (*Note: The figure is taken from the above-mentioned OMAE paper which is not publically available yet.*)
 
 ![My Image](beam_exp_setup.png)
-FIGURE 1: A two-dimensional schematic diagram of the experimental setup [1].
+FIGURE 2: A two-dimensional schematic diagram of the experimental setup [1].
 
 The aim is to use these experimental data to validate FSI solvers commonly employed by the maritime industry in the design of fixed-foundation, offshore wind turbines. The study is divided into three experimental cases which are as follows (click on the case number to read more description):
 
@@ -69,3 +72,4 @@ FIGURE 2: The top plot shows the accelerations obtained from the accelerometer l
 
 ## References
 [1] Rehman, W., Bunnik, T., Bokhove, O. and Kelmanson, M. “Experimental Modeling of Water-Wave Interactions with a Flexible Beam.” *Proc. ASME 2023 42nd Int. Conf. on Ocean, Offshore and Arctic Eng.*: p. 10. 2023. ASME.
+[2] MARIN Concept Basin.” file:///Users/mmwr/Downloads/Concept_Basin.pdf. Accessed: 19-11-2022
