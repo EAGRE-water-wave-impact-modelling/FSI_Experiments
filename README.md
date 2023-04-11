@@ -64,7 +64,7 @@ TABLE 1: The names and descriptions of the sensors are listed.
 |    AX_i   | Accelerations of the beam in x direction recorded by accelerometer, where i denotes the accelerometer number|
 |    AY_i   | Accelerations of the beam in y direction recorded by accelerometer, where i denotes the accelerometer number |
 |    AZ_i   | Accelerations of the beam in z direction recorded by accelerometer, where i denotes the accelerometer number |
-|Flap 3 Pos | Position of the waveflap wavemaker.                                   |
+|Flap 3 Pos | Position of the waveflap wavemaker                                   |
 
 The number with the accelerations, e.g. AX.1, AY.2, and AZ.3, denotes the location of the accelerometer. The accelerometers are numbered from 1 to 6 where the accelerometer at the submerged free end of the beam is numbered 1 while the one at the fixed end of the beam is numbered 6. The rest of the accelerometers are numbered 2 to 5 from the free end to the fixed end. The files with extension *.h5m* contain the actual time-domain measurements obtained from the sensors. These measurements can be read with the help of post-processing code. MATLAB and Python scripts with comments are shared to read the data. The names of the MATLAB and Python scripts are **read_model_tst.m** and **read_model_tst.py** respectively. The provided MATLAB script is used to plot the wave maker position and it is compared to the signals measured by the wave probe which is located 26.25 m away from the wavemaker. The plot is depicted in Fig. 3.
 
