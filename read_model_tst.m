@@ -27,6 +27,24 @@ xlabel('Time [s]')
 ylabel('Wavemaker position [deg]')
 grid
 
+% % Top plot
+figure
+ax1 = nexttile;
+plot(t3, flap_pos,'DisplayName', 'Wavemaker position')
+title(ax1,'Wavemaker position [deg]')
+ax1.FontSize = 20;
+ylabel('Wavemaker position [deg]')
+grid(ax1,'on')
+
+% % Bottom plot
+ax2 = nexttile;
+plot(t_wave,WAVE_SB,'DisplayName', 'WAVE_SB')
+title(ax2,'Wave elevation measured by the probe ')
+ax2.FontSize = 20;
+ylabel('Wave elevation [m]')
+xlabel('Time [s]')
+grid(ax2,'on')
+
 %% Sensor at the free end of the beam
 figure
 plot(t1, AX1,'DisplayName', 'AX1')
