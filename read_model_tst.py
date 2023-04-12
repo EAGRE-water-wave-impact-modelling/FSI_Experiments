@@ -38,7 +38,7 @@ with h5py.File(filename, "r") as f:
     t2 = f['/200.05 Hz/Time'][()]
     
     # Time array for the signals obtained from  waveflap wavemaker position
-    t2 = f['/100.00 Hz/Time'][()]
+    t3 = f['/100.00 Hz/Time'][()]
     
     # Accelerations in x-direction obtained from accelerometer at the submerged free end of the beam (AX1)
     AX1 = f['/1200.31 Hz/AX.1'][()] 
