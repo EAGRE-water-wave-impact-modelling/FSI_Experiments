@@ -63,6 +63,8 @@ xlabel('Time [s]')
 ylabel('Acceleration (AX6)')
 legend
 title('Beam acceleration in x direction')
+grid
+
 %% Top plot
 figure
 ax1 = nexttile;
