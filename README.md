@@ -80,7 +80,7 @@ FIGURE 4: The top plot shows the accelerations obtained from the accelerometer l
 
 It can be noticed that the signals in the last 50 seconds of the run are affected by the reflected waves. Therefore, the user should use the part of the signal that is not affected by the reflected waves for the code validation purpose. 
 ## Data for numerical validation of wavemaker motion
-To numerically reproduce the same wavemaker motion as in the experimental study, the measured data is linearly interpolated which then can be assigned to a numerical function at each time step. The numerical time step is often smaller than the experimental time step due to the CFL condition; therefore we interpolate the measured data by using the first-order polynomial. The measured and interpolated wavemaker motion is plotted in Fig. 5 
+To numerically reproduce the same wavemaker motion as in the experimental study, the measured data is linearly interpolated which then can be assigned to a numerical function at each time step. The numerical time step is often smaller than the experimental time step due to the CFL condition; therefore we interpolate the measured data by using the first-order polynomial. The measured and interpolated wavemaker motion is plotted in Fig. 5. 
 ![My Image](wavemaker_interpolate.png)
 FIGURE 5: The top plot shows the comparison of the interpolated and measured wavemaker motion during one complete test and the bottom plot shows the zoomed-in part of the comparison shown in the top plot.
 
