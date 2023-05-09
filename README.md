@@ -4,10 +4,10 @@ This GitHub repository is created to share the experimental data which is presen
 ![My Image](concept_wavetank.png)
 Figure 1: The MARIN's concept basin layout is explained [2].
 
-The experimental setup is designed such that it admits the simultaneous measurements of incident waves and the beam's response. Hence, it is suitable for studying FSI problems. The details about the dimensions of the beam and arrangements of the sensors are described in the form of detailed CAD drawings which are given in **CAD_fsi_beam_exp.pdf**. The shared CAD drawings could be used in the future to reproduce the model. To enhance the users' understanding of the experimental setup, a 2D schematic diagram of the setup is shown in Fig. 2. (*Note: The figure is taken from the above-mentioned OMAE paper which is not publically available yet.*)
+The experimental setup includes a flexible beam which is fixed to the basin's carriage at one end while the other free end is submerged in the water. The setup is designed such that it admits the simultaneous measurements of incident waves and the beam's response. Hence, it is suitable for studying FSI problems. The details about the dimensions of the beam and arrangements of the sensors are described in the form of detailed CAD drawings which are given in **CAD_fsi_beam_exp.pdf**. The shared CAD drawings could be used in the future to reproduce the model. To enhance the users' understanding of the experimental setup, a 2D schematic diagram of the setup is shown in Fig. 2. (*Note: The figure is taken from the above-mentioned OMAE paper which is not publically available yet.*)
 
 ![My Image](beam_exp_setup.png)
-FIGURE 2: A two-dimensional schematic diagram of the experimental setup is shown [1].
+FIGURE 2: A two-dimensional schematic diagram of the experimental setup is shown. The beam is equipped with six accelerometers which are equally distributed along the beam's length. These accelerometers measure the beam response. There are two probes to measure the incident and the reflected water-wave elevation. The probe in the front of the beam measures the undisturbed incident wave and the probe parallel to the beam measures the change in the wave which is affected by the beam's motion [1].
 
 The aim is to use these experimental data to validate FSI solvers commonly employed by the maritime industry in the design of fixed-foundation, offshore wind turbines. The study is divided into three experimental cases which are as follows (click on the case number to read more description):
 
