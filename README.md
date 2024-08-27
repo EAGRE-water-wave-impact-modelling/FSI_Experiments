@@ -37,7 +37,7 @@ resonance, can be studied. By changing the steepness of the regular waves, both 
 </details>
 
 
-## FSI Experiments: Interactions of water-waves with a flexible beam
+## FSI Experiments: Interactions of water waves with a flexible beam
 
 "*All measurements are given in the form of *.h5* format files, each of which has a corresponding *.pan* format file containing details of measurement names, units, frequency, maximum, minimum and standard deviation. The data presented is classified into different folders given as follows:*" 
 
@@ -49,7 +49,7 @@ resonance, can be studied. By changing the steepness of the regular waves, both 
 - Folder **Exp3_irreg_waves_0.5m**; and 
 - Folder **hammer_test**.
 
-The description of the measurement and corresponding wave parameters is given in each folder. 
+The description of the measurement and corresponding wave parameters are given in each folder. 
 
 ## Data organisation
 
@@ -61,13 +61,13 @@ TABLE 1: The names and descriptions of the sensors are listed.
 |  C.SPEED  |                            Speed of the carriage                         |
 | WAVE.FORE |   Wave elevation measured by the probe located at the front of the beam (26.25 m away from the wavemaker) |
 |  WAVE.SB  |     Wave elevation measured by the probe located parallel to the beam (30 m away from the wavemaker)   |
-|    AX_i   | Accelerations of the beam in x direction recorded by accelerometer, where i denotes the accelerometer number|
-|    AY_i   | Accelerations of the beam in y direction recorded by accelerometer, where i denotes the accelerometer number |
-|    AZ_i   | Accelerations of the beam in z direction recorded by accelerometer, where i denotes the accelerometer number |
+|    AX_i   | Accelerations of the beam in x-direction recorded by the accelerometer, where i denotes the accelerometer number|
+|    AY_i   | Accelerations of the beam in y-direction recorded by accelerometer, where i denotes the accelerometer number |
+|    AZ_i   | Accelerations of the beam in z-direction recorded by accelerometer, where i denotes the accelerometer number |
 |Flap 3 Pos | Position of the waveflap wavemaker                                   |
 
-The number with the accelerations, e.g. AX.1, AY.2, and AZ.3, denotes the position of the accelerometer along the beam. The response of the beam is dominant in the direction of wave, i.e. x-direction, therefore the *.h5m* files contains accelerations in x-direction for all of the accelerometers. The accelerometers are numbered from 1 to 6, where accelerometer number 1 is at the submerged free end of the beam while accelerometer number 6 is located at the fixed end of the beam. The rest of the accelerometers are numbered 2 to 5 from the free end to the fixed end. The files with extension *.h5m* contain the actual time-domain measurements obtained from the sensors. Each *.h5m* from the experimental case contains acceleration signal from all six accelerometers in the x-direction, wave elevation measured by the probe that is 26.25 m away from the wavemaker, wave elevation measured by the probe that is 30 m away from the wavemaker, carriage speed, and variation waveflap position throughout the run.
-These measurements can be read with the help of post-processing code. The post-processing codes based on MATLAB and Python scripts, with comments, are shared. The names of the MATLAB and Python scripts are **read_model_tst.m** and **read_model_tst.py** respectively. Each script needs the name of the *.h5m* file as user input. In addition to reading the *.h5m* file, the script plots the signals from the sensors. For demonstration, the provided MATLAB script is used to plot the comparison of the wave maker position with the wave elevation measured by the wave probe that is 26.25 m away from the wavemaker. 
+The number with the accelerations, e.g. AX.1, AY.2, and AZ.3, denotes the position of the accelerometer along the beam. The response of the beam is dominant in the direction of wave, i.e. x-direction, therefore the *.h5m* files contain accelerations in the x-direction for all of the accelerometers. The accelerometers are numbered from 1 to 6, where accelerometer number 1 is at the submerged free end of the beam while accelerometer number 6 is located at the fixed end of the beam. The rest of the accelerometers are numbered 2 to 5 from the free end to the fixed end. The files with extension *.h5m* contain the actual time-domain measurements obtained from the sensors. Each *.h5m* from the experimental case contains acceleration signal from all six accelerometers in the x-direction, wave elevation measured by the probe that is 26.25 m away from the wavemaker, wave elevation measured by the probe that is 30 m away from the wavemaker, carriage speed, and variation waveflap position throughout the run.
+These measurements can be read with the help of post-processing code. The post-processing codes based on MATLAB and Python scripts, with comments, are shared. The names of the MATLAB and Python scripts are **read_model_tst.m** and **read_model_tst.py** respectively. Each script needs the name of the *.h5m* file as user input. In addition to reading the *.h5m* file, the script plots the signals from the sensors. For demonstration, the provided MATLAB script is used to plot the comparison of the wavemaker position with the wave elevation measured by the wave probe that is 26.25 m away from the wavemaker. 
 
 ![My Image](wm_vs_waveprobe.png)
 FIGURE 3: The top plot shows the variation of the position of the waveflap wavemaker (x = 0 m) as time proceeds. The bottom plot shows the signals measured by the wave probe (x = 26.25 m) which is located in front of the beam.
@@ -78,7 +78,7 @@ As a demonstration of the Python script, one of the plots that are generated by 
 ![My Image](acc_vs_wave.png)
 FIGURE 4: The top plot shows the accelerations obtained from the accelerometer located at the submerged free-end of the beam (x = 30 m) when the incident wave, shown in the bottom plot, interacted with the beam.
 
-It can be noticed that the signals in the last 50 seconds of the run are affected by the reflected waves. Therefore, the user should use the part of the signal that is not affected by the reflected waves for the code validation purpose. 
+It can be noticed that the signals in the last 50 seconds of the run are affected by the reflected waves. Therefore, the user should use the part of the signal that is not affected by the reflected waves for the code validation purposes. 
 ## Data for numerical validation of wavemaker motion
 This section explains the procedure to numerically reproduce the wavemaker motion from the experimental study in numerical wavetanks which are presented in another [OMAE](https://omae.secure-platform.com/a/solicitations/190/sessiongallery/schedule/items/13647) 2023 paper '*A Systematic Approach of Developing a Numerical Wavetank to Simulate Driven Shallow- and Deep-Water Waves*'. To numerically reproduce the same wavemaker motion as in the experimental study, the measured data is linearly interpolated which then can be assigned to a numerical function at each time step. The numerical time step is often smaller than the experimental time step due to the CFL condition; therefore we interpolate the measured data by using the first-order polynomial. The measured and interpolated wavemaker motion are plotted in Fig. 5. 
 ![My Image](wavemaker_interpolate.png)
